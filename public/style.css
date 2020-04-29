@@ -1,0 +1,394 @@
+/*
+Template Name: DASHGUM FREE - Bootstrap 3.2 Admin Theme
+Template Version: 1.0
+Author: Carlos Alvarez
+Website: http://blacktie.co
+Premium: http://www.gridgum.com
+*/
+
+
+/* Import fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
+
+/* BASIC THEME CONFIGURATION */
+
+body {
+    color: #797979;
+    background: #f2f2f2;
+    font-family: 'Ruda', sans-serif;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 13px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+::selection {
+    background: #68dff0;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #68dff0;
+    color: #fff;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Bootstrap Modifications */
+
+
+/*Theme Backgrounds*/
+
+.bg-theme {
+    background-color: #68dff0;
+}
+
+
+/*Theme Buttons*/
+
+
+/*Helpers*/
+
+.mt {
+    margin-top: 25px;
+}
+
+.mb {
+    margin-bottom: 25px;
+}
+
+
+/*Exclusive Theme Colors Configuration*/
+
+.bg-theme {
+    background-color: #68dff0;
+}
+
+ul.top-menu>li>.logout {
+    color: #f2f2f2;
+    font-size: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1px solid #64c3c2 !important;
+    padding: 5px 15px;
+    margin-right: 15px;
+    background: #68dff0;
+    margin-top: 15px;
+}
+
+
+/*sidebar navigation*/
+
+
+/*LEFT NAVIGATION ICON*/
+
+
+/*---*/
+
+
+/* MAIN CONTENT CONFIGURATION */
+
+#main-content {
+    margin-left: 210px;
+}
+
+.header {
+    min-height: 60px;
+    padding: 0 15px;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1002;
+}
+
+.black-bg {
+    background: #ffd777;
+    border-bottom: 1px solid #c9aa5f;
+}
+
+.wrapper {
+    display: inline-block;
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    width: 100%;
+}
+
+a.logo {
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+a.logo b {
+    font-weight: 900;
+}
+
+a.logo:hover,
+a.logo:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+
+/*notification*/
+
+ul.top-menu>li {
+    float: left;
+}
+
+ul.top-menu>li>a {
+    color: #666666;
+    font-size: 16px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1px solid #666666 !important;
+    padding: 2px 6px;
+    margin-right: 15px;
+}
+
+ul.top-menu>li>a:hover,
+ul.top-menu>li>a:focus {
+    border: 1px solid #b6b6b6 !important;
+    background-color: transparent !important;
+    border-color: #b6b6b6 !important;
+    text-decoration: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #b6b6b6 !important;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Safari and Chrome */
+}
+
+
+/*----*/
+
+
+/*--sidebar toggle---*/
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+
+/* Dash Side */
+
+
+/* LINE ICONS CONFIGURATION */
+
+
+/* MAIN CHART CONFIGURATION */
+
+
+/*Donut Chart Main Page Conf*/
+
+
+/* *************************************************************************************
+PANELS CONFIGURATIONS
+*************************************************************************************** */
+
+
+/*Panel Size*/
+
+
+/*Grey Panel*/
+
+
+/* Specific Conf for Donut Charts*/
+
+
+/* Dark Blue*/
+
+
+/*Green Panel*/
+
+
+/*White Panel */
+
+
+/*STOCK CARD Panel*/
+
+
+/*Content Panel*/
+
+
+/*WEATHER PANELS*/
+
+
+/* Weather 1 */
+
+
+/* Weather 2 */
+
+
+/* Weather 3 */
+
+
+/*Twitter Panel*/
+
+
+/* Instagram Panel*/
+
+
+/* Product Panel */
+
+
+/* Product Panel 2*/
+
+
+/* Soptify Panel */
+
+
+/* BLOG PANEL */
+
+
+/* Calendar Configuration */
+
+
+/* TODO PANEL */
+
+
+/* PROFILE PANELS */
+
+
+/* Profile 01*/
+
+
+/* Profile 02*/
+
+
+/*spark line*/
+
+
+/* showcase background */
+
+
+/* Calendar Events - Calendar.html*/
+
+
+/* Gallery Configuration */
+
+
+/* EZ Checklist */
+
+
+/* FORMS CONFIGURATION */
+
+
+/* TOGGLE CONFIGURATION */
+
+
+/*LOGIN CONFIGURATION PAGE*/
+
+
+/*LOCK SCREEN CONF*/
+
+
+/*badge*/
+
+.badge.bg-success {
+    background: #a9d86e;
+}
+
+.badge.bg-warning {
+    background: #FCB322;
+}
+
+.badge.bg-important {
+    background: #ff6c60;
+}
+
+.badge.bg-info {
+    background: #41cac0;
+}
+
+
+/*easy pie chart*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Safari and Chrome */
+}
+
+
+/*flot chart*/
+
+
+/*todolist*/
+
+#sortable {
+    list-style-type: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+    width: 100%;
+}
+
+#sortable li {
+    padding-left: 3em;
+    font-size: 12px;
+}
+
+#sortable li i {
+    position: absolute;
+    left: 6px;
+    padding: 4px 10px 0 10px;
+    cursor: pointer;
+}
+
+#sortable li input[type=checkbox] {
+    margin-top: 0;
+}
+
+.ui-sortable>li {
+    padding: 15px 0 15px 35px !important;
+    position: relative;
+    background: #f5f6f8;
+    margin-bottom: 2px;
+    border-bottom: none !important;
+}
+
+.ui-sortable li.list-primary {
+    border-left: 3px solid #41CAC0;
+}
+
+.ui-sortable li.list-success {
+    border-left: 3px solid #78CD51;
+}
+
+.ui-sortable li.list-danger {
+    border-left: 3px solid #FF6C60;
+}
+
+.ui-sortable li.list-warning {
+    border-left: 3px solid #F1C500;
+}
+
+.ui-sortable li.list-info {
+    border-left: 3px solid #58C9F3;
+}
+
+
+/*footer*/
